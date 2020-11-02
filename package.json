@@ -1,0 +1,26 @@
+{
+  "name": "be-rated-restaurants",
+  "version": "1.0.0",
+  "description": "## A micro [yelp](https://www.yelp.co.uk/c/manchester/restaurants) clone API using Express and SQL",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon listen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bainesface/tutor-be-restaurants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bainesface/tutor-be-restaurants/issues"
+  },
+  "homepage": "https://github.com/bainesface/tutor-be-restaurants#readme"
+}
