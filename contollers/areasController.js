@@ -1,9 +1,9 @@
-const { fetchAreas, addArea } = require("../models/areasModel");
+const { fetchAreas, addArea } = require('../models/areasModel');
 
 const getAreas = (req, res, next) => {
   fetchAreas()
     .then((areas) => {
-      res.status(200).send({ areas });
+      res.status(200).send({ total_areas: areas.length, areas });
     })
     .catch((err) => {
       next(err);
