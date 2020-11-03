@@ -1,11 +1,11 @@
-const db = require("../db/index");
+const db = require('../db/index');
 
 const fetchRestaurantsByAreaID = (id, query) => {
   const { cuisine } = query;
-  console.log(cuisine);
+  //console.log(cuisine);
 
   return db
-    .query("SELECT * FROM restaurants WHERE area_id = $1 AND cuisine = $2", [
+    .query('SELECT * FROM restaurants WHERE area_id = $1 AND cuisine = $2', [
       id,
       cuisine,
     ])
