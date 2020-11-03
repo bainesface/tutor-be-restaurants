@@ -42,17 +42,17 @@ INSERT INTO restaurants(
     VALUES (
     'Donner Summer',
     1,
-    'Turkish',
+    'turkish',
     'donnersummer.co.uk'
     ), (
     'Nordie',
     2,
-    'Cafe Bar',
+    'cafe bar',
     'nordie.co.uk'
     ), (
     'Coconut Lagoon',
     1,
-    'Indian',
+    'indian',
     'coconutlagoon.co.uk'
     );
 
@@ -80,5 +80,5 @@ INSERT INTO ratings(restaurant_id, rating) VALUES (
     4
 );
 
-SELECT * FROM ratings;
+-- SELECT * FROM ratings;
 

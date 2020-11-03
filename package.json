@@ -14,7 +14,9 @@
   },
   "scripts": {
     "dev": "nodemon listen.js",
-    "test" : "jest"
+    "test": "npm run seed-test && jest",
+    "seed-dev": "psql -f db/seed.dev.sql",
+    "seed-test": "psql -f db/seed.sql"
   },
   "repository": {
     "type": "git",
